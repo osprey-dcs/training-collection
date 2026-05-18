@@ -13,6 +13,11 @@
 m_base: true
 m_p4p: true
 m_areadetector: true
+m_calc: true
+m_sscan: true
+m_busy: true
+m_seq: true
+m_stream: true
 
 # Services & applications
 phoebus: true
