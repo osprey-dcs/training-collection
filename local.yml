@@ -23,5 +23,6 @@ m_stream: true
 phoebus: true
 # oac-tree: true
 archiver_appliance: true
+channelfinder: true
 # docker: true
 # bluesky: true
