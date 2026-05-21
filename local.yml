@@ -10,19 +10,19 @@
 # epics_rebuild_all: true
 
 # Modules to be built
-m_base: false
-m_p4p: false
-m_areadetector: false
-m_calc: false
-m_sscan: false
+m_base: true
+m_p4p: true
+m_areadetector: true
+m_calc: true
+m_sscan: true
   #m_busy: true
-m_seq: false
-m_stream: false
+m_seq: true
+m_stream: true
 
 # Services & applications
-phoebus: false
+phoebus: true
 # oac-tree: true
-archiver_appliance: false
-channelfinder: true
+archiver_appliance: true
+channelfinder: false
 # docker: true
 # bluesky: true
