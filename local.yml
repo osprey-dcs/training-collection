@@ -9,6 +9,9 @@ epics_modules_build: true
 #oac_tree: true
 #docker: true
 #bluesky: true
+phoebus: true
+archiver_appliance: true
+channel_finder: true
 
 # List the EPICS modules that will be built in this order (base is mandatory)
 epics_modules_list:
@@ -23,9 +26,9 @@ epics_modules_list:
 #  - opcua
 # AreaDetector dependencies
 #  - autosave
-#  - busy
+ - busy
 #  - sscan
-#  - calc
+ - calc
 #  - adcore
 #  - adsimdetector
 #  - adpvadriver
