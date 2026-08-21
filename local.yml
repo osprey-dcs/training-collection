@@ -3,7 +3,6 @@
 
 # Activate/deactivate optional roles by uncommenting the associated variable below
 # (default settings are defined in all.yml)
-epics_modules_build: true
 #catrust: true
 #epics_tools: false
 #oac_tree: true
@@ -14,9 +13,8 @@ archiver_appliance: true
 channelfinder: true
 
 # List the EPICS modules that will be built in this order (base is mandatory)
-epics_modules_list:
-  - base
-  - pvxs
+m_base: true
+m_pvxs: true
 # Two alternative Python wrappers
 #  - p4p
 #  - pvapy
@@ -25,10 +23,10 @@ epics_modules_list:
 #  - asyn
 #  - opcua
 # AreaDetector dependencies
-#  - autosave
-  - busy
+m_autosave: true
+m_busy: true
 #  - sscan
-  - calc
+m_calc: true
 #  - adcore
 #  - adsimdetector
 #  - adpvadriver
