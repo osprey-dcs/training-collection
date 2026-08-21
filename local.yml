@@ -26,9 +26,9 @@ epics_modules_list:
 #  - opcua
 # AreaDetector dependencies
 #  - autosave
- - busy
+  - busy
 #  - sscan
- - calc
+  - calc
 #  - adcore
 #  - adsimdetector
 #  - adpvadriver
