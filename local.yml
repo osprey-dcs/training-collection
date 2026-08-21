@@ -11,7 +11,7 @@ epics_modules_build: true
 #bluesky: true
 phoebus: true
 archiver_appliance: true
-channel_finder: true
+channelfinder: true
 
 # List the EPICS modules that will be built in this order (base is mandatory)
 epics_modules_list:
