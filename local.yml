@@ -16,21 +16,10 @@ iocs: true
 # List the EPICS modules that will be built in this order (base is mandatory)
 m_base: true
 m_pvxs: true
-# Two alternative Python wrappers
-#  - p4p
-#  - pvapy
-#
-#  - seq
-#  - asyn
-#  - opcua
-# AreaDetector dependencies
 m_autosave: true
 m_busy: true
-#  - sscan
 m_calc: true
-#  - adcore
-#  - adsimdetector
-#  - adpvadriver
+m_iocstats: true
 
 # Set proxies, if needed
 #proxy_env:
