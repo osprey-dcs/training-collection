@@ -20,6 +20,7 @@ m_autosave: true
 m_busy: true
 m_calc: true
 m_iocstats: true
+m_reccaster: true
 
 # Set proxies, if needed
 #proxy_env:
