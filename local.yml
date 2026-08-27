@@ -12,6 +12,7 @@ phoebus: true
 archiver_appliance: true
 channelfinder: true
 iocs: true
+extra_setup: true
 
 # List the EPICS modules that will be built in this order (base is mandatory)
 m_base: true
